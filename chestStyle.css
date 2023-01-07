@@ -11,6 +11,7 @@ body{
     margin: 0 auto;
 }
 nav{
+    display: flex;
     width: 100%;
     background-color: rgb(42, 38, 31);
 }
@@ -20,7 +21,7 @@ nav ul{
     background-color: rgb(42, 38, 31);
 }
 nav ul li{
-    width: 24.64%;
+    width: 24.06%;
     float: left;
     display: flex;
     text-align: center;
