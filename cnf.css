@@ -1,0 +1,33 @@
+
+body{
+    width: 100%;
+
+}
+
+ul{
+    list-style: none;
+    width: 45%;
+    border: red 1px solid;
+    display: flow;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+ul li div{
+    width: 49%;
+    float: left;
+}
+ul li input{
+    width: 80%;
+    border: rgb(40, 28, 18) 3px inset;
+}
+ul li textarea{
+    width: 80%;
+    border: rgb(40, 28, 18) 3px inset;
+}
+#submit{
+    width: 25%;
+    float: right;
+    margin-right: 10%;
+    
+}
