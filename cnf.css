@@ -7,7 +7,6 @@ body{
 ul{
     list-style: none;
     width: 45%;
-    border: red 1px solid;
     display: flow;
     text-align: center;
     align-items: center;
