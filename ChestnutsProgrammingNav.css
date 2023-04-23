@@ -6,6 +6,7 @@ nav{
     display: flex;
     width: 100%;
     background-color: rgb(42, 38, 31);
+    height: 80px;
 }
 nav ul{
     width: 100%;
@@ -25,7 +26,7 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: whitesmoke;
-    padding: 5px;
+    padding-top: 20px;
     margin: 5px;
     width: 100%;
     height: 100%;
