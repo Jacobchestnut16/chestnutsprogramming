@@ -1,9 +1,6 @@
-
 body{
     width: 100%;
-
 }
-
 ul{
     list-style: none;
     width: 45%;
@@ -28,5 +25,5 @@ ul li textarea{
     width: 25%;
     float: right;
     margin-right: 10%;
-    
+
 }
