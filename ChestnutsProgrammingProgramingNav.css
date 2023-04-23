@@ -1,0 +1,41 @@
+nav {
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+nav ul li {
+    display: inline-grid;
+}
+
+div {
+    position: relative;
+    text-align: center;
+}
+
+nav ul li div a img {
+    opacity: 70%;
+}
+
+p{
+    width: 100%;
+}
+
+a p {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1000%;
+}
+nav ul li div:hover{
+    color: #dca24a;
+    box-shadow: #1c1916 10px 10px 20px 10px;
+}

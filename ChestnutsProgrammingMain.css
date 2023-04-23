@@ -11,10 +11,7 @@ body{
     margin: 0 auto;
 }
 footer{
-    padding-top: 20px;
-    padding-bottom: 15px;
     clear: both;
-    display: block;
     background-color: rgb(42, 38, 31);
     color: rgb(200,200,200);
 }
@@ -65,4 +62,7 @@ nav{
 }
 ul li{
     font-size: 1em;
+}
+img{
+    box-shadow: #1c1916 10px 10px 10px;
 }

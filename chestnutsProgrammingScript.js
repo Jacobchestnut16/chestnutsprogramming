@@ -18,10 +18,9 @@ function sendEmail() {
 }
 
 function iframeLoaded() {
-    var iFrameID = document.getElementById('page');
+    var iFrameID = document.getElementById('frame');
     if (iFrameID) {
-        // here you can make the height, I delete it first, then I make it again
         iFrameID.height = "";
-        iFrameID.height = iFrameID.contentWindow.document.body.scrollHeight + 150 + "px";
+        iFrameID.height = iFrameID.contentWindow.document.body.scrollHeight + 500 + "px";
     }
 }
