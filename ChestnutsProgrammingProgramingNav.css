@@ -13,7 +13,9 @@ nav ul {
 nav ul li {
     display: inline-grid;
 }
-
+img{
+    width: 100%;
+}
 div {
     position: relative;
     text-align: center;
@@ -29,11 +31,11 @@ p{
 
 a p {
     position: absolute;
-    top: 20%;
+    top: 30px;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 1000%;
+    font-size: 700%;
 }
 nav ul li div:hover{
     color: #dca24a;
