@@ -9,23 +9,20 @@
 </head>
 <body>
 
-<form
-        action="https://formspree.io/f/mayzazaz"
-        method="POST"
->
-  <label>
-    Name:
-    <textarea name="name"></textarea>
-  </label>
-  <label>
-    Email:
-    <input type="email" name="email">
-  </label>
-  <label>
-    Message:
-    <textarea name="message"></textarea>
-  </label>
-  <button type="submit">Send</button>
+<form action="https://formspree.io/f/mayzazaz" method="POST">
+  <div>
+    <label for="name">Name:</label><br><input required id="name" name="name">
+
+  </div>
+  <div>
+    <label for="email">Email:</label><br><input required type="email" id="email" name="email">
+
+  </div>
+  <div>
+    <label for="message">Message:</label><br><textarea required id="message" name="message"></textarea>
+
+  </div>
+  <button type="submit" name="send" id="submit">Send</button>
 </form>
 
 </body>

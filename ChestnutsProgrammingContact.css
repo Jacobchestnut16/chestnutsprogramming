@@ -21,9 +21,22 @@ ul li textarea{
     width: 80%;
     border: rgb(40, 28, 18) 3px inset;
 }
-#submit{
-    width: 25%;
-    float: right;
-    margin-right: 10%;
 
+button{
+    border-radius: 10px;
+    width: 45%;
+}
+#message{
+    width: 45%;
+    resize: none;
+    border-radius: 10px;
+}
+label{
+    font-size: 1.25em;
+}
+#submit{
+    background: #53d5fd;
+    color: rgb(75,75,75);
+    font-size: 1.25em;
+    letter-spacing: 2.5px;
 }
