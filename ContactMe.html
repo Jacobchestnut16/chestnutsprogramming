@@ -9,30 +9,23 @@
 </head>
 <body>
 
-<form onsubmit="sendEmail()">
-  <ul>
-    <li>
-      <div>
-        <h3>First Name</h3>
-        <label for="FirstName"></label><textarea name="" id="FirstName" cols="30" rows="1"></textarea>
-      </div>
-      <div>
-        <h3>Last Name</h3>
-        <label for="LastName"></label><textarea name="" id="LastName" cols="30" rows="1"></textarea>
-      </div>
-    </li>
-    <li>
-      <h3>Email</h3>
-      <label for="Email"></label><input type="email" name="" id="Email">
-    </li>
-    <li>
-      <h3>Message</h3>
-      <label for="Body"></label><textarea name="" id="Body" cols="30" rows="20"></textarea>
-    </li>
-    <li>
-      <button id="submit" type="submit">Send</button>
-    </li>
-  </ul>
+<form
+        action="https://formspree.io/f/mayzazaz"
+        method="POST"
+>
+  <label>
+    Name:
+    <textarea name="name"></textarea>
+  </label>
+  <label>
+    Email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Message:
+    <textarea name="message"></textarea>
+  </label>
+  <button type="submit">Send</button>
 </form>
 
 </body>
